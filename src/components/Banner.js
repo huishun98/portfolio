@@ -10,7 +10,7 @@ export default function Banner() {
             <div className="container-fluid banner-content">
                 <h1 className="name">HUI SHUN</h1>
                 <p className="section-description">Developer from Singapore</p>
-                <a className="btn btn-dark btn-main" href="/resume.pdf" download>Download Resume</a>
+                <a className="btn btn-dark btn-main" href="/Resume.pdf" download>Download Resume</a>
                 <Link
                     className="btn btn-secondary"
                     to="projects"
