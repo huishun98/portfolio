@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap");
-
 :root {
   --background-color-one: #0F0F0F;
   --background-color-two: white;
@@ -129,7 +128,6 @@
   font-size: 55px;
   font-weight: 600;
   border-bottom: 0.2px solid var(--text-color-one);
-
 }
 
 .social-media-buttons-group {
@@ -192,6 +190,10 @@
   color: var(--link-color);
   transition: opacity 0.2s;
   margin: 2px 6px;
+}
+
+.card-link:hover {
+  color: var(--link-color);
 }
 
 .card-link+.card-link {
