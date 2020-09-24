@@ -10,7 +10,6 @@ export default function Articles() {
         async function getFeed() {
             let parser = new Parser();
             const rss = await parser.parseURL('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@huishun98');
-            console.log({ rss: rss.items })
             setArticles(rss.items)
         }
         getFeed()
@@ -21,10 +20,12 @@ export default function Articles() {
             <h2 className="section-header">ARTICLES</h2>
             <div className="section-body section-width">
                 {articles.map((article, index) => (
-                    <a href={article.guid} target="_blank" className="long-card" key={index}>
-                        <h5 className="title">{article.title}</h5>
-                        <div className="remarks">Published on {article.pubDate}</div>
-                        <div className="remarks">medium.com</div>
+                    <a href={article.guid} target="_blank" rel="noopener noreferrer" className="long-card" key={index}>
+                        <div className="long-card-body">
+                            <h5 className="title">{article.title}</h5>
+                            <div className="remarks">Published on {article.pubDate}</div>
+                            <div className="remarks">medium.com</div>
+                        </div>
                     </a>
                 ))}
             </div>

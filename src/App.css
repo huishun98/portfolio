@@ -41,6 +41,10 @@
   margin-left: 5px;
 }
 
+.text-align-left {
+  text-align: left;
+}
+
 /* section */
 
 .section-header {
@@ -272,9 +276,9 @@
   width: 100%;
   min-height: 100px;
   border: 0.1px solid var(--background-color-four);
-  padding: 40px 30px;
   text-align: left;
   color: var(--text-color-two);
+  display: flex;
 }
 
 .long-card:hover {
@@ -294,6 +298,29 @@
   transition: color 0.2s;
 }
 
+.long-card-body {
+  padding: 40px 30px;
+}
+
 .remarks {
   font-size: var(--default-font-small);
+}
+
+.label {
+  font-size: var(--default-font-small);
+  border: 0.1px solid var(--text-color-two);
+  display: inline-block;
+  margin: 5px;
+  padding: 1px 5px;
+  transition: opacity 0.2s;
+}
+
+.label:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.label.active {
+  border: 0.1px solid var(--link-color);
+  color: var(--link-color);
 }
