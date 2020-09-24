@@ -355,7 +355,7 @@ export default function Projects() {
                                     className="card-link"
                                 >Live Site</a>
                                 <a
-                                    href="https://github.com/huishun98/portfolio"
+                                    href="https://github.com/huishun98/huishun98.github.io.git"
                                     target="_blank" rel="noopener noreferrer"
                                     className="card-link"
                                 >Code</a>
