@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Articles from './components/Articles';
 import Banner from './components/Banner.js'
 import Footer from './components/Footer.js'
 import Projects from './components/Projects.js'
@@ -9,6 +10,7 @@ function App() {
     <div className="App body">
       <Banner />
       <Projects />
+      <Articles />
       <Footer />
     </div>
   );

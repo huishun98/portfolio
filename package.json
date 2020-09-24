@@ -17,7 +17,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",
-    "react-tooltip": "^4.2.8"
+    "react-tooltip": "^4.2.8",
+    "rss-parser": "^3.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
