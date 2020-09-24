@@ -3,7 +3,7 @@ const projects = [
         title: 'SongDedi',
         description: 'A free song dedication service suitable for weddings, parties or any event.',
         more: 'Anyone can contribute to your playlist. Your playlist will update in real time. Built using Vue.js (JavaScript) and Flask (Python). Google authentication, data storage and media storage done using Firebase. Hosted on Heroku. Integrated with Google Analytics.',
-        stack: ['Vue.js', 'JavaScript', 'Flask', 'Python', 'Firebase storage', 'Firestore', 'Heroku', 'Google Analytics'],
+        stack: ['Vue.js', 'JavaScript', 'Flask', 'Python', 'Firebase authentication', 'Firebase storage', 'Firestore', 'Heroku', 'Google Analytics'],
         imgName: 'songdedi.png',
         siteUrl: 'https://songdedi-admin.herokuapp.com/',
         codeUrl: 'https://github.com/huishun98/songdedi-admin',

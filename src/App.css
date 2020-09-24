@@ -279,6 +279,7 @@
   text-align: left;
   color: var(--text-color-two);
   display: flex;
+  margin-bottom: 10px;
 }
 
 .long-card:hover {
