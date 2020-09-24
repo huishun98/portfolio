@@ -345,12 +345,12 @@ export default function Projects() {
                                     Built using
                     <span className="highlight margin-left-5">React.js (JavaScript)</span>.
                     Hosted on
-                    <span className="highlight margin-left-5">Heroku</span>.
+                    <span className="highlight margin-left-5">Github Pages</span>.
                   </p>
                             </div>
                             <div>
                                 <a
-                                    href="https://hs-portfolio.herokuapp.com/"
+                                    href="https://huishun98.github.io/"
                                     target="_blank" rel="noopener noreferrer"
                                     className="card-link"
                                 >Live Site</a>
