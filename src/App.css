@@ -94,6 +94,8 @@
 
 .card-img-top.object-top {
   object-position: top;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 /* banner */
@@ -215,8 +217,10 @@
   opacity: 0.5;
 }
 
-.card {
+.card-wrapper .card {
   height: 100%;
+  border-radius: 0;
+  box-shadow: 0 3px 5px var(--background-color-one);
 }
 
 .card-title {

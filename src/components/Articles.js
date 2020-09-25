@@ -10,6 +10,7 @@ export default function Articles() {
         async function getFeed() {
             let parser = new Parser();
             const rss = await parser.parseURL('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@huishun98');
+            console.log(rss.items)
             setArticles(rss.items)
         }
         getFeed()
@@ -23,7 +24,7 @@ export default function Articles() {
                     <a href={article.guid} target="_blank" rel="noopener noreferrer" className="long-card" key={index}>
                         <div className="long-card-body">
                             <h5 className="title">{article.title}</h5>
-                            <div className="remarks">Published on {article.pubDate}</div>
+                            <p className="remarks">{article['content:encodedSnippet'].substring(0, 197)}...</p>
                             <div className="remarks">medium.com</div>
                         </div>
                     </a>
