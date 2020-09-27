@@ -76,7 +76,7 @@ const projects = [
         title: 'HS Portfolio',
         description: 'A portfolio website.',
         more: 'Built usingReact.js (JavaScript). Hosted on Github Pages.',
-        stack: ['React.js', 'JavaScript', 'Github Pages'],
+        stack: ['React.js', 'JavaScript'],
         imgName: 'portfolio.png',
         siteUrl: 'https://huishun98.github.io/',
         codeUrl: 'https://github.com/huishun98/huishun98.github.io.git',
