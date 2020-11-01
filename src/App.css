@@ -49,7 +49,6 @@ body, .body {
 /* section */
 
 .section-header {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   border-bottom: 0.2px solid var(--text-color-one);
   display: inline-block;
   font-size: 22px;
@@ -136,7 +135,6 @@ body, .body {
   font-size: 62px;
   font-weight: 600;
   border-bottom: 0.2px solid var(--text-color-one);
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .social-media-buttons-group {
