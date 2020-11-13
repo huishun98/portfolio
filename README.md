@@ -1,11 +1,16 @@
 # Portfolio
 
 ## Description
-A simple portfolio scaffold. The live version can be found here: https://hs-portfolio.herokuapp.com
+A simple portfolio scaffold. The live version can be found here: https://huishun98.github.io/
 
 
 ## Language, Frameworks and Libraries
 Built using React.js.
+
+
+## Deploying on Github Pages
+1. Follow instructions in [this post](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f) by Ibrahim Ragab.
+2. In the project directory, run `npm run deploy`.
 
 
 ## Development Server
@@ -19,11 +24,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
