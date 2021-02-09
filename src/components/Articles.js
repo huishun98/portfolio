@@ -9,7 +9,7 @@ export default function Articles() {
     useEffect(() => {
         async function getFeed() {
             let parser = new Parser();
-            const rss = await parser.parseURL('https://api.allorigins.win/raw?url=https://medium.com/feed/@huishun98'); 
+            const rss = await parser.parseURL('https://api.allorigins.win/raw?url=https://medium.com/feed/@huishun'); 
             // https://cors-anywhere.herokuapp.com/ - outdated
             // https://api.allorigins.win/raw?url=
             // https://thingproxy.freeboard.io/fetch/ - requests and responses are both limited to 100,000 characters each
