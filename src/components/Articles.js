@@ -9,9 +9,15 @@ export default function Articles() {
     useEffect(() => {
         async function getFeed() {
             let parser = new Parser();
-            const rss = await parser.parseURL('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@huishun98');
-            console.log(rss.items)
-            setArticles(rss.items)
+            const rss = await parser.parseURL('https://api.allorigins.win/raw?url=https://medium.com/feed/@huishun98'); 
+            // https://cors-anywhere.herokuapp.com/ - outdated
+            // https://api.allorigins.win/raw?url=
+            // https://thingproxy.freeboard.io/fetch/ - requests and responses are both limited to 100,000 characters each
+            const articles = rss.items
+                .filter(articleDetail => articleDetail.categories.indexOf("technology") > -1)
+                .slice(0, 5)
+            // console.log(rss.items)
+            setArticles(articles)
         }
         getFeed()
     }, []);

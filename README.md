@@ -17,6 +17,10 @@ Built using React.js.
 
 In the project directory, you can run:
 
+### `npm install`
+
+Downloads required packages
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
