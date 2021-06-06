@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd0dc840.chunk.css",
-    "main.js": "/static/js/main.000a16cf.chunk.js",
-    "main.js.map": "/static/js/main.000a16cf.chunk.js.map",
+    "main.css": "/static/css/main.0f657364.chunk.css",
+    "main.js": "/static/js/main.c1afdde9.chunk.js",
+    "main.js.map": "/static/js/main.c1afdde9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c542aba9.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.3d2e2b8b.chunk.js": "/static/js/2.3d2e2b8b.chunk.js",
-    "static/js/2.3d2e2b8b.chunk.js.map": "/static/js/2.3d2e2b8b.chunk.js.map",
+    "static/js/2.44357335.chunk.js": "/static/js/2.44357335.chunk.js",
+    "static/js/2.44357335.chunk.js.map": "/static/js/2.44357335.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0f91886c08f9cb13da39ccb1880851a3.js": "/precache-manifest.0f91886c08f9cb13da39ccb1880851a3.js",
+    "precache-manifest.9e54450ad96ca7b9473f51ea87f768dd.js": "/precache-manifest.9e54450ad96ca7b9473f51ea87f768dd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.dd0dc840.chunk.css.map": "/static/css/main.dd0dc840.chunk.css.map",
-    "static/js/2.3d2e2b8b.chunk.js.LICENSE.txt": "/static/js/2.3d2e2b8b.chunk.js.LICENSE.txt",
+    "static/css/main.0f657364.chunk.css.map": "/static/css/main.0f657364.chunk.css.map",
+    "static/js/2.44357335.chunk.js.LICENSE.txt": "/static/js/2.44357335.chunk.js.LICENSE.txt",
     "static/media/API.png": "/static/media/API.84d5ff27.png",
     "static/media/cb_quiz.png": "/static/media/cb_quiz.d2138f86.png",
     "static/media/data_viz.png": "/static/media/data_viz.a3015f4b.png",
@@ -24,6 +24,7 @@
     "static/media/narie.png": "/static/media/narie.806825ea.png",
     "static/media/portfolio.gif": "/static/media/portfolio.a65ce46c.gif",
     "static/media/portfolio.png": "/static/media/portfolio.d9ef887e.png",
+    "static/media/singapore_covid_spread.gif": "/static/media/singapore_covid_spread.1a0ca865.gif",
     "static/media/songdedi.png": "/static/media/songdedi.d9adf61a.png",
     "static/media/springer_books.png": "/static/media/springer_books.f1af2ced.png",
     "static/media/telebot.png": "/static/media/telebot.ea5e9322.png"
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.3d2e2b8b.chunk.js",
-    "static/css/main.dd0dc840.chunk.css",
-    "static/js/main.000a16cf.chunk.js"
+    "static/js/2.44357335.chunk.js",
+    "static/css/main.0f657364.chunk.css",
+    "static/js/main.c1afdde9.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a6dc197b26fd1033342fdd7008e61df",
+    "revision": "92cc9197e49c8a236a1e4cc55306f9fb",
     "url": "/index.html"
   },
   {
-    "revision": "546dec419082c4ec2f0a",
+    "revision": "40d5b3ba9b90efabe355",
     "url": "/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "f0506cb2c26a47346353",
-    "url": "/static/css/main.dd0dc840.chunk.css"
+    "revision": "229b1a044f74efd2b1ef",
+    "url": "/static/css/main.0f657364.chunk.css"
   },
   {
-    "revision": "546dec419082c4ec2f0a",
-    "url": "/static/js/2.3d2e2b8b.chunk.js"
+    "revision": "40d5b3ba9b90efabe355",
+    "url": "/static/js/2.44357335.chunk.js"
   },
   {
     "revision": "c5910952aae0e53539e67bcc9efbf67b",
-    "url": "/static/js/2.3d2e2b8b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.44357335.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0506cb2c26a47346353",
-    "url": "/static/js/main.000a16cf.chunk.js"
+    "revision": "229b1a044f74efd2b1ef",
+    "url": "/static/js/main.c1afdde9.chunk.js"
   },
   {
     "revision": "0934e5a0629121a12638",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d9ef887eea12ebf7ac6467b07c23a478",
     "url": "/static/media/portfolio.d9ef887e.png"
+  },
+  {
+    "revision": "1a0ca8654e6a3457a1f5a9ef123ac4c6",
+    "url": "/static/media/singapore_covid_spread.1a0ca865.gif"
   },
   {
     "revision": "d9adf61af65de47d9484b64ad049631f",
