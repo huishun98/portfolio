@@ -202,7 +202,7 @@ body, .body {
 .card-link {
   color: var(--link-color);
   transition: opacity 0.2s;
-  margin: 2px 6px;
+  margin: 2px;
 }
 
 .card-link:hover {

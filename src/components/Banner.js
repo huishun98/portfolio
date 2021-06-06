@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactTooltip from 'react-tooltip';
 import { Link } from "react-scroll";
+import { email, githubUrl, linkedInUrl, displayName, bannerDescription, resumePdfTitle } from '../data';
 
 export default function Banner() {
     return (
@@ -8,9 +9,9 @@ export default function Banner() {
             <ReactTooltip />
             <div className="background"></div>
             <div className="container-fluid banner-content">
-                <h1 className="name">HUI SHUN</h1>
-                <p className="section-description">Developer from Singapore</p>
-                <a className="btn btn-dark btn-main" href="/Chua Hui Shun.pdf" download>Download Resume</a>
+                <h1 className="name">{displayName.toUpperCase()}</h1>
+                <p className="section-description">{bannerDescription}</p>
+                <a className="btn btn-dark btn-main" href={"/" + resumePdfTitle} download>Download Resume</a>
                 <Link
                     className="btn btn-secondary"
                     to="projects"
@@ -19,7 +20,7 @@ export default function Banner() {
                 >View Projects</Link>
                 <div className="social-media-buttons-group">
                     <a
-                        href="https://github.com/huishun98"
+                        href={githubUrl}
                         target="_blank" rel="noopener noreferrer"
                         className="svg-link"
                         title="Github"
@@ -38,7 +39,7 @@ export default function Banner() {
                         </svg>
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/hui-shun/"
+                        href={linkedInUrl}
                         target="_blank" rel="noopener noreferrer"
                         className="svg-link"
                         title="LinkedIn"
@@ -56,7 +57,7 @@ export default function Banner() {
                             />
                         </svg>
                     </a>
-                    <a href="mailto:huishun98@gmail.com" className="svg-link" title="Email" data-tip="Email">
+                    <a href={"mailto:" + email} className="svg-link" title="Email" data-tip="Email">
                         <svg
                             className="svg"
                             xmlns="http://www.w3.org/2000/svg"

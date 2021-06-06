@@ -1,13 +1,9 @@
 import React, { useState } from 'react'
-import { projects } from './data.js'
+import { projects } from '../data.js'
 
 export default function Projects() {
 
     const [filterArr, setFilterArr] = useState([])
-
-    // const [collapsed, setCollapsed] = useState({
-    //     narie: false
-    // })
 
     const toggleFilter = (tech) => {
         if (filterArr.indexOf(tech) > -1) {
@@ -16,15 +12,6 @@ export default function Projects() {
         }
         setFilterArr(filterArr.concat([tech]))
     }
-
-
-    // const toggle = (ref, e) => {
-    //     e.preventDefault()
-    //     console.log(ref)
-    //     let update = {}
-    //     update[ref] = !collapsed.narie
-    //     setCollapsed(update)
-    // }
 
     return (
         <div className="projects container-fluid section" id="section1">
@@ -87,7 +74,3 @@ export default function Projects() {
         </div >
     )
 }
-
-// {/* <a href="/#" className="card-link" onClick={(e) => toggle('narie', e)}>
-// <span className="margin-right">{collapsed.narie ? 'Less' : 'More'}</span> info
-// </a> */}
