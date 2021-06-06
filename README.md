@@ -9,7 +9,7 @@ Built using React.js.
 1. [src/data.js](src/data.js) — Modify this file to customise the portfolio website
 
 ## Quickstart
-1. Update details in `src/data.js`
+1. Update details in [src/data.js](src/data.js)
 2. In the project directory, you can run:
 - `npm install` — Downloads required packages
 - `npm start` — Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
