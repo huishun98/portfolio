@@ -5,7 +5,7 @@ const mediumFilterKeyword = 'technology'
 const email = 'huishun98@gmail.com'
 const githubUrl = "https://github.com/huishun98"
 const linkedInUrl = "https://www.linkedin.com/in/hui-shun/"
-const resumePdfTitle = 'Chua Hui Shun.pdf'
+const resumePdfTitle = 'Chua-Hui-Shun-Resume.pdf'
 
 const projects = [
     {
