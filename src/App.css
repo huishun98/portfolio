@@ -222,13 +222,14 @@ body, .body {
   background-color: var(--background-color-two);
   height: 30px;
   width: 30px;
+  transition: opacity 0.3s;
 }
 
 .svg-link+.svg-link {
   margin-left: 10px;
 }
 
-.svg:hover {
+.svg-link:hover {
   opacity: 0.5;
 }
 
