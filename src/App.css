@@ -533,21 +533,15 @@ body, .body {
 
 @media only screen and (min-width: 576px) {
   .name {
-    font-size: 55px;
-  }
-  .card .card-title, .long-card .title, .footer, .footer .remarks, .btn.btn-main, .card-link {
-    font-size: var(--default-font-size);
-  }
-  .label, .card-text, .card .card-link, .remarks, .section-description {
-    font-size: var(--default-font-small);
+    font-size: 62px;
   }
   .banner .section-description {
+    font-size: 20px;
+  }
+  .card .card-title, .long-card .title, .footer, .footer .remarks, .btn.btn-main, .btn.btn-secondary, .card-link {
     font-size: var(--default-font-bigger);
   }
-}
-
-@media only screen and (min-width: 768px) {
-  .name {
-    font-size: 62px;
+  .label, .card-text, .card .card-link, .remarks, .section-description {
+    font-size: var(--default-font-size);
   }
 }
