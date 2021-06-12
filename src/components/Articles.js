@@ -24,9 +24,9 @@ export default function Articles() {
     }, []);
 
     return (
-        <div className="articles container-fluid section">
-            <h2 className="section-header">WRITINGS</h2>
-            <div className="section-body section-width">
+        <div className="articles container-fluid section" name="writing">
+            <h2 className="section-header">WRITING</h2>
+            <div className="section-body section-width top-bot-border-xs">
                 {articles.map((article, index) => (
                     <a href={article.guid} target="_blank" rel="noopener noreferrer" className="long-card" key={index}>
                         <div className="long-card-body">

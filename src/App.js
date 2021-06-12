@@ -5,6 +5,7 @@ import Banner from './components/Banner.js'
 import Footer from './components/Footer.js'
 import Contact from './components/Contact.js'
 import Projects from './components/Projects.js'
+import Navigation from './components/Navigation';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Articles />
       <Contact />
       <Footer />
+      <Navigation />
     </div>
   );
 }

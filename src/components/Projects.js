@@ -14,7 +14,7 @@ export default function Projects() {
     }
 
     return (
-        <div className="projects container-fluid section" id="section1">
+        <div className="projects container-fluid section" name="projects">
             <h2 className="section-header">PROJECTS</h2>
             <div className="section-body section-width top-bot-border-sm">
 
