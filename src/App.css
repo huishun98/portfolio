@@ -541,7 +541,7 @@ body, .body {
     font-size: var(--default-font-small);
   }
   .banner .section-description {
-    font-size: var(--default-font-size);
+    font-size: var(--default-font-bigger);
   }
 }
 
