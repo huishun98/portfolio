@@ -538,10 +538,10 @@ body, .body {
   .banner .section-description {
     font-size: 20px;
   }
-  .card .card-title, .long-card .title, .footer, .footer .remarks, .btn.btn-main, .btn.btn-secondary, .card-link {
+  .card .card-title, .long-card .title, .card-link {
     font-size: var(--default-font-bigger);
   }
-  .label, .card-text, .card .card-link, .remarks, .section-description {
-    font-size: var(--default-font-size);
+  .label, .card-text, .card .card-link, .remarks, .section-description, .btn.btn-main, .btn.btn-secondary, .footer, .footer .remarks {
+    font-size: var(--default-font-small);
   }
 }
