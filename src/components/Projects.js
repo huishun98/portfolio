@@ -16,7 +16,7 @@ export default function Projects() {
     return (
         <div className="projects container-fluid section" id="section1">
             <h2 className="section-header">PROJECTS</h2>
-            <div className="section-body section-width">
+            <div className="section-body section-width top-bot-border-sm">
 
                 {projects.map((project, index) => {
                     if (filterArr.length > 0 &&
@@ -27,8 +27,9 @@ export default function Projects() {
                     }
                     return (
                         <div target="_blank" rel="noopener noreferrer" className="card-wrapper" key={index}>
-                            <div className="card text-white bg-dark mb-3">
-                                <img alt="" className="card-img-top object-top" src={require('../assets/' + project.imgName)} />
+                            <div className="card text-white background-dark-lg mb-3">
+                                <img alt="" className="card-img-top object-top d-none d-md-block" src={require('../assets/' + project.imgName)} />
+                                <img alt="" className="card-img-left d-none d-sm-block d-md-none" src={require('../assets/' + project.imgName)} />
                                 <div className="card-body">
                                     <div>
                                         <h5 className="card-title">{project.title}</h5>
@@ -36,7 +37,7 @@ export default function Projects() {
                                             className="card-text remarks"
                                         >{project.description}</p>
                                     </div>
-                                    <div>
+                                    <div className="label-wrapper">
                                         {project.stack.map((tech, i) => (
                                             < span key={i} className={`label ${filterArr.indexOf(tech) > -1 ? "active" : ""}`} onClick={() => toggleFilter(tech)}> {tech}</span>
                                         ))}
