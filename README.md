@@ -1,10 +1,10 @@
 # Portfolio
 
 Web view: 
-![Web view](https://github.com/huishun98/huishun98.github.io/blob/master/src/assets/screenshot.png)
+![Web view](https://github.com/huishun98/huishun98.github.io/blob/master/src/assets/portfolio.png)
 
 Mobile view:
-![Mobile view](https://github.com/huishun98/huishun98.github.io/blob/master/src/assets/mobile-portfolio.png)
+![Mobile view](https://github.com/huishun98/huishun98.github.io/blob/master/src/assets/mobile-portfolio.jpg)
 
 A mobile-responsive portfolio scaffold. The live version can be found here: https://huishun98.github.io/
 
