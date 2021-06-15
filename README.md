@@ -1,7 +1,12 @@
 # Portfolio
 
-## Description
-A simple portfolio scaffold. The live version can be found here: https://huishun98.github.io/
+Web view: 
+![Web view](https://github.com/huishun98/huishun98.github.io/blob/master/src/assets/screenshot.png)
+
+Mobile view:
+![Mobile view](https://github.com/huishun98/huishun98.github.io/blob/master/src/assets/mobile-portfolio.png)
+
+A mobile-responsive portfolio scaffold. The live version can be found here: https://huishun98.github.io/
 
 Built using React.js.
 
