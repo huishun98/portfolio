@@ -84,7 +84,7 @@ const projects = [
     {
         title: 'Json to Table',
         description: 'This website transforms ugly JSON into pretty, readable tables.',
-        stack: ['Vue.js'],
+        stack: ['Vue.js', 'Google Analytics'],
         imgName: 'json-table.png',
         siteUrl: 'https://huishun98.github.io/json-table',
         codeUrl: 'https://github.com/huishun98/json-table',
