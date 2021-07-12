@@ -81,6 +81,14 @@ const projects = [
         siteUrl: 'https://huishun98.github.io/',
         codeUrl: 'https://github.com/huishun98/huishun98.github.io.git',
     },
+    {
+        title: 'Json to Table',
+        description: 'This website transforms ugly JSON into pretty, readable tables.',
+        stack: ['Vue.js'],
+        imgName: 'json-table.png',
+        siteUrl: 'https://huishun98.github.io/json-table',
+        codeUrl: 'https://github.com/huishun98/json-table',
+    },
 ]
 
 export { projects, mediumUrl, mediumFilterKeyword, email, githubUrl, linkedInUrl, displayName, bannerDescription, resumePdfTitle }
