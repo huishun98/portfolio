@@ -21,11 +21,11 @@ export default function Banner() {
             <div className="background"></div>
             <div className="container-fluid banner-content">
                 <div className="name-wrapper">
-                    <h1 className={`name fade-left-md ${showTitle ? "show" : ""}`}>{displayName.toUpperCase()}</h1>
-                    <p className={`section-description fade-right-md ${showTitle ? "show" : ""}`}>{bannerDescription}</p>
+                    <h1 className={`name fade-left-sm ${showTitle ? "show" : ""}`}>{displayName.toUpperCase()}</h1>
+                    <p className={`section-description fade-right-sm ${showTitle ? "show" : ""}`}>{bannerDescription}</p>
                 </div>
 
-                <div className={`delay-md ${showButtons ? "show" : ""}`}>
+                <div className={`delay-sm ${showButtons ? "show" : ""}`}>
                     <a className="btn btn-dark btn-main d-none d-sm-block" href={"/" + resumePdfTitle} download>Download Resume</a>
                     <Link
                         className="btn btn-secondary d-none d-sm-block"

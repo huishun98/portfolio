@@ -285,32 +285,32 @@ body, .body {
   .svg-link+.svg-link {
     margin-left: 20px;
   }
-  .delay-md {
+  .delay-sm {
     opacity: 0;
     transform: translateY(30px);
     pointer-events: none;
     transition: opacity 1s ease-out, transform 1s ease-out;
   }
-  .delay-md.show {
+  .delay-sm.show {
     opacity: 1;
     transform: translateY(0px);
     pointer-events: unset;
   }
-  .fade-left-md {
+  .fade-left-sm {
     opacity: 0;
     transform: translateX(-100px);
     transition: opacity 1.2s ease-out, transform 1.2s ease-out;
   }
-  .fade-left-md.show {
+  .fade-left-sm.show {
     opacity: 1;
     transform: translateX(0px);
   }
-  .fade-right-md {
+  .fade-right-sm {
     opacity: 0;
     transform: translateX(100px);
     transition: opacity 1.2s ease-out, transform 1.2s ease-out;
   }
-  .fade-right-md.show {
+  .fade-right-sm.show {
     opacity: 1;
     transform: translateX(0px);
   }
@@ -575,6 +575,18 @@ body, .body {
   cursor: pointer;
 }
 
+.logo {
+  color: transparent;
+  font-weight: 600;
+  margin-right: auto;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.logo.show {
+  color: var(--text-color-one);
+}
+
 @media only screen and (min-width: 576px) {
   .nav {
     top: 0;
@@ -582,11 +594,12 @@ body, .body {
     z-index: 2;
     justify-content: flex-end;
     background-color: transparent;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s;
   }
 
   .nav.opaque {
     background-color: var(--background-color-four);
+    box-shadow: var(--box-shadow-one);
   }
 
   .nav .card-link {
