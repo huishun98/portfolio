@@ -57,7 +57,6 @@ body, .body {
   text-align: left;
 }
 
-
 /* section */
 
 .section-header {
@@ -219,10 +218,21 @@ body, .body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-color-two);
+  border: 1px var(--background-color-two) solid;
   height: 30px;
   width: 30px;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s, border 0.3s;
+  background-color: var(--background-color-four);
+}
+
+.svg-link:hover {
+  border: 1px solid transparent;
+}
+
+.svg-link svg {
+  height: 50px;
+  width: 50px;
+  padding: 6px;
 }
 
 .svg-link+.svg-link {
@@ -239,7 +249,7 @@ body, .body {
     padding-bottom: 5px;
   }
   .background {
-    background: url('./assets/developer.jpeg');
+    background: url('./assets/developer.jpeg') !important;
   }
   .social-media-buttons-group {
     margin-top: 20px;
@@ -260,6 +270,9 @@ body, .body {
     height: 42px;
     width: 42px;
   }
+  .svg-link svg {
+    padding: 10px;
+  }
   .svg-link+.svg-link {
     margin-left: 20px;
   }
@@ -272,6 +285,7 @@ body, .body {
   max-width: 200px;
   margin: 5px 0;
   font-size: 15px;
+  border: 1px solid var(--background-color-two);
 }
 
 /* footer */
@@ -527,6 +541,7 @@ body, .body {
 .card .card-title, .long-card .title, .footer, .footer .remarks, .name, .btn.btn-main, .card-link {
   font-size: var(--default-font-small);
 }
+
 .label, .card-text, .card .card-link, .remarks, .section-description {
   font-size: var(--default-font-xs);
 }

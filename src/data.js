@@ -42,12 +42,12 @@ const projects = [
         codeUrl: 'https://github.com/huishun98/django_blog',
     },
     {
-        title: 'Springer Books Navigator',
-        description: 'An easy and fast way to download free books offered by Springer.',
-        stack: ['Python BeautifulSoup', 'Vue.js', 'Google Analytics'],
-        imgName: 'springer_books.png',
-        siteUrl: 'https://springer-books-links.herokuapp.com/',
-        codeUrl: 'https://github.com/huishun98/springer-books',
+        title: 'Json to Table',
+        description: 'This website transforms ugly JSON into pretty, readable tables.',
+        stack: ['Vue.js', 'Google Analytics'],
+        imgName: 'json-table.png',
+        siteUrl: 'https://huishun98.github.io/json-table',
+        codeUrl: 'https://github.com/huishun98/json-table',
     },
     {
         title: 'Circuit Breaker Personality Quiz',
@@ -56,6 +56,14 @@ const projects = [
         imgName: 'cb_quiz.png',
         siteUrl: 'https://circuit-breaker-personality.herokuapp.com/',
         codeUrl: 'https://github.com/huishun98/trivia-quiz-client',
+    },
+    {
+        title: 'Springer Books Navigator',
+        description: 'An easy and fast way to download free books offered by Springer.',
+        stack: ['Python BeautifulSoup', 'Vue.js', 'Google Analytics'],
+        imgName: 'springer_books.png',
+        siteUrl: 'https://springer-books-links.herokuapp.com/',
+        codeUrl: 'https://github.com/huishun98/springer-books',
     },
     {
         title: 'HS Coding Factory',
@@ -80,14 +88,6 @@ const projects = [
         imgName: 'portfolio.png',
         siteUrl: 'https://huishun98.github.io/',
         codeUrl: 'https://github.com/huishun98/huishun98.github.io.git',
-    },
-    {
-        title: 'Json to Table',
-        description: 'This website transforms ugly JSON into pretty, readable tables.',
-        stack: ['Vue.js', 'Google Analytics'],
-        imgName: 'json-table.png',
-        siteUrl: 'https://huishun98.github.io/json-table',
-        codeUrl: 'https://github.com/huishun98/json-table',
     },
 ]
 

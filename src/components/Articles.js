@@ -7,21 +7,29 @@ export default function Articles() {
 
     const [articles, setArticles] = useState([])
 
+    async function getFeed() {
+        let parser = new Parser();
+        const rss = await parser.parseURL(mediumUrl);
+        // https://cors-anywhere.herokuapp.com/ - outdated
+        // https://api.allorigins.win/raw?url=
+        // https://thingproxy.freeboard.io/fetch/ - requests and responses are both limited to 100,000 characters each
+        const articles = rss.items
+            .filter(articleDetail => articleDetail.categories.indexOf(mediumFilterKeyword) > -1)
+            .slice(0, 5)
+        // console.log(rss.items)
+        setArticles(articles)
+    }
+
     useEffect(() => {
-        async function getFeed() {
-            let parser = new Parser();
-            const rss = await parser.parseURL(mediumUrl); 
-            // https://cors-anywhere.herokuapp.com/ - outdated
-            // https://api.allorigins.win/raw?url=
-            // https://thingproxy.freeboard.io/fetch/ - requests and responses are both limited to 100,000 characters each
-            const articles = rss.items
-                .filter(articleDetail => articleDetail.categories.indexOf(mediumFilterKeyword) > -1)
-                .slice(0, 5)
-            // console.log(rss.items)
-            setArticles(articles)
+        if (window.safari !== undefined) {
+            return undefined
         }
         getFeed()
     }, []);
+
+    if (window.safari !== undefined) {
+        return null
+    }
 
     return (
         <div className="articles container-fluid section" name="writing">
