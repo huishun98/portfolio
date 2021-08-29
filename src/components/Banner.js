@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import ReactTooltip from 'react-tooltip';
 import { Link } from "react-scroll";
 import { email, githubUrl, linkedInUrl, displayName, bannerDescription, resumePdfTitle } from '../data';
-import Fade from 'react-reveal/Fade';
 
 export default function Banner() {
 
@@ -14,7 +13,7 @@ export default function Banner() {
         setTimeout(() => {
             setShowButtons(true)
         }, 1300)
-    })
+    }, [])
 
     return (
         <div className="banner">

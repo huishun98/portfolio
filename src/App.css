@@ -572,6 +572,27 @@ body, .body {
 
 .nav .card-link {
   color: var(--text-color-one);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 576px) {
+  .nav {
+    top: 0;
+    bottom: unset;
+    z-index: 2;
+    justify-content: flex-end;
+    background-color: transparent;
+    transition: background-color 0.3s;
+  }
+
+  .nav.opaque {
+    background-color: var(--background-color-four);
+  }
+
+  .nav .card-link {
+    font-size: var(--default-font-small);
+    margin: 0 20px;
+  }
 }
 
 /* font sizes */

@@ -29,8 +29,8 @@ export default function Projects() {
                         return null
                     }
                     return (
-                        <Fade bottom>
-                            <div target="_blank" rel="noopener noreferrer" className="card-wrapper" key={index}>
+                        <Fade bottom key={index}>
+                            <div target="_blank" rel="noopener noreferrer" className="card-wrapper">
                                 <div className="card text-white background-dark-lg mb-3">
                                     <img alt="" className="card-img-top object-top d-none d-md-block" src={require('../assets/' + project.imgName)} />
                                     <img alt="" className="card-img-left d-none d-sm-block d-md-none" src={require('../assets/' + project.imgName)} />

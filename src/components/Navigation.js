@@ -1,11 +1,28 @@
-import React from 'react'
+import React, { useLayoutEffect, useState } from 'react'
 import { resumePdfTitle } from '../data';
 import { Link } from "react-scroll";
 
 export default function Navigation() {
+
+    const [top, setTop] = useState(true)
+
+    const handleScroll = () => {
+        if (window.scrollY > 0 && top) {
+            setTop(false)
+        } else if (window.scrollY <= 0) {
+            setTop(true)
+        }
+    }
+
+    useLayoutEffect(() => {
+        if (window.innerWidth >= 576) {
+            window.addEventListener('scroll', handleScroll)
+        }
+    })
+
     return (
-        <div className="nav d-flex d-sm-none">
-            <a className="card-link" href={"/" + resumePdfTitle} download>Resume</a>
+        <div className={`nav d-flex ${top ? "" : "opaque"}`}>
+            <a className="card-link d-md-none" href={"/" + resumePdfTitle} download>Resume</a>
             <Link
                 to="projects"
                 smooth={true}
