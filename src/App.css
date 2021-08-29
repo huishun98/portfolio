@@ -72,15 +72,6 @@ body, .body {
   width: 100%;
 }
 
-.copy {
-  margin: 0.2em 0;
-  text-align: center;
-}
-
-.letter {
-  display: inline-block;
-}
-
 .contact .section-header {
   margin-bottom: 8px;
 }

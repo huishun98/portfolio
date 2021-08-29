@@ -1,10 +1,11 @@
-import React, { useLayoutEffect, useState } from 'react'
+import React, { useEffect, useLayoutEffect, useState } from 'react'
 import { resumePdfTitle } from '../data';
 import { Link } from "react-scroll";
 
 export default function Navigation() {
 
     const [top, setTop] = useState(true)
+    const [safari, setSafari] = useState(false)
 
     const handleScroll = () => {
         if (window.scrollY > 0 && top) {
@@ -17,6 +18,12 @@ export default function Navigation() {
     useLayoutEffect(() => {
         if (window.innerWidth >= 576) {
             window.addEventListener('scroll', handleScroll)
+        }
+    })
+
+    useEffect(() => {
+        if (window.safari !== undefined) {
+            setSafari(true)
         }
     })
 
@@ -35,7 +42,7 @@ export default function Navigation() {
                 to="writing"
                 smooth={true}
                 duration={300}
-                className="card-link"
+                className={`card-link ${safari ? "d-none" : ""}`}
             >Writing</Link>
             <Link
                 to="contact"
