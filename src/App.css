@@ -72,6 +72,15 @@ body, .body {
   width: 100%;
 }
 
+.copy {
+  margin: 0.2em 0;
+  text-align: center;
+}
+
+.letter {
+  display: inline-block;
+}
+
 .contact .section-header {
   margin-bottom: 8px;
 }
@@ -275,6 +284,35 @@ body, .body {
   }
   .svg-link+.svg-link {
     margin-left: 20px;
+  }
+  .delay-md {
+    opacity: 0;
+    transform: translateY(30px);
+    pointer-events: none;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  .delay-md.show {
+    opacity: 1;
+    transform: translateY(0px);
+    pointer-events: unset;
+  }
+  .fade-left-md {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+  }
+  .fade-left-md.show {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  .fade-right-md {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+  }
+  .fade-right-md.show {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import * as Parser from 'rss-parser';
-
 import { mediumUrl, mediumFilterKeyword } from '../data.js'
+import Fade from 'react-reveal/Fade';
 
 export default function Articles() {
 
@@ -33,16 +33,20 @@ export default function Articles() {
 
     return (
         <div className="articles container-fluid section" name="writing">
-            <h2 className="section-header">WRITING</h2>
+            <Fade bottom>
+                <h2 className="section-header">WRITING</h2>
+            </Fade>
             <div className="section-body section-width top-bot-border-xs">
                 {articles.map((article, index) => (
-                    <a href={article.guid} target="_blank" rel="noopener noreferrer" className="long-card" key={index}>
-                        <div className="long-card-body">
-                            <h5 className="title">{article.title}</h5>
-                            <p className="remarks">Published on {article['pubDate']}</p>
-                            <div className="remarks">medium.com</div>
-                        </div>
-                    </a>
+                    <Fade bottom key={index}>
+                        <a href={article.guid} target="_blank" rel="noopener noreferrer" className="long-card">
+                            <div className="long-card-body">
+                                <h5 className="title">{article.title}</h5>
+                                <p className="remarks">Published on {article['pubDate']}</p>
+                                <div className="remarks">medium.com</div>
+                            </div>
+                        </a>
+                    </Fade>
                 ))}
             </div>
         </div>
