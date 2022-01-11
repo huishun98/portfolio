@@ -82,6 +82,14 @@ const projects = [
         codeUrl: 'https://github.com/huishun98/happy-dinner-bot-public',
     },
     {
+        title: 'URL Shortening Service',
+        description: 'A URL shortening service (like bit.ly).',
+        stack: ['Python Flask', 'Vue.js', 'MongoDB Atlas'],
+        imgName: 'url_shortener.png',
+        siteUrl: 'https://url-shortening-service.netlify.app/',
+        codeUrl: 'https://github.com/huishun98/url-shortening-service',
+    },
+    {
         title: 'HS Portfolio',
         description: 'A portfolio website.',
         stack: ['React.js'],
