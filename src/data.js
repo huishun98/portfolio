@@ -5,7 +5,7 @@ const mediumFilterKeyword = 'technology'
 const email = 'huishun98@gmail.com'
 const githubUrl = "https://github.com/huishun98"
 const linkedInUrl = "https://www.linkedin.com/in/hui-shun/"
-const resumePdfTitle = 'Chua-Hui-Shun-Resume.pdf'
+const resumePdfTitle = 'Resume.pdf'
 
 const projects = [
     {
@@ -21,7 +21,7 @@ const projects = [
         description: 'A free song dedication service suitable for weddings, parties or any event.',
         stack: ['Vue.js', 'Python Flask', 'Firebase', 'Google Analytics'],
         imgName: 'songdedi.png',
-        siteUrl: 'https://songdedi-admin.herokuapp.com/',
+        siteUrl: '',
         codeUrl: 'https://github.com/huishun98/songdedi-admin',
         altCodeUrl: 'https://github.com/huishun98/songdedi-requests'
     },
@@ -30,7 +30,7 @@ const projects = [
         description: 'A beginner-friendly itinerary planner, perfectly customisable to suit your needs.',
         stack: ['Figma', 'Vue.js', 'Python Flask', 'Firebase', 'Google Analytics'],
         imgName: 'narie.png',
-        siteUrl: 'https://narie.herokuapp.com/',
+        siteUrl: '',
         codeUrl: '',
     },
     {
@@ -38,64 +38,16 @@ const projects = [
         description: 'A template that gives content creators full control over the design of their site and content management system.',
         stack: ['Django', 'PostgreSQL', 'Amazon S3'],
         imgName: 'django_blog.png',
-        siteUrl: 'https://hs-django-blog.herokuapp.com/',
+        siteUrl: '',
         codeUrl: 'https://github.com/huishun98/django_blog',
-    },
-    {
-        title: 'Json to Table',
-        description: 'This website transforms ugly JSON into pretty, readable tables.',
-        stack: ['Vue.js', 'Google Analytics'],
-        imgName: 'json-table.png',
-        siteUrl: 'https://huishun98.github.io/json-table',
-        codeUrl: 'https://github.com/huishun98/json-table',
     },
     {
         title: 'Circuit Breaker Personality Quiz',
         description: 'A personality quiz about attitudes and feelings about the Circuit Breaker.',
         stack: ['Vue.js', 'Python Flask', 'Google Sheets API'],
         imgName: 'cb_quiz.png',
-        siteUrl: 'https://circuit-breaker-personality.herokuapp.com/',
+        siteUrl: '',
         codeUrl: 'https://github.com/huishun98/trivia-quiz-client',
-    },
-    {
-        title: 'Springer Books Navigator',
-        description: 'An easy and fast way to download free books offered by Springer.',
-        stack: ['Python BeautifulSoup', 'Vue.js', 'Google Analytics'],
-        imgName: 'springer_books.png',
-        siteUrl: 'https://springer-books-links.herokuapp.com/',
-        codeUrl: 'https://github.com/huishun98/springer-books',
-    },
-    {
-        title: 'HS Coding Factory',
-        description: 'A WordPress theme and site for me to document and share my coding journey.',
-        stack: ['PHP', 'jQuery'],
-        imgName: 'huishun-cf.png',
-        siteUrl: 'https://huishun-cf.herokuapp.com/',
-        codeUrl: 'https://github.com/huishun98/huishun-cf',
-    },
-    {
-        title: 'Happy Dinner Bot',
-        description: 'A Telegram bot that helps to organise dinners every day.',
-        stack: ['Node.js', 'AWS', 'MongoDB Atlas'],
-        imgName: 'telebot.png',
-        siteUrl: 'https://web.telegram.org/#/im?p=@happy_dinner_bot',
-        codeUrl: 'https://github.com/huishun98/happy-dinner-bot-public',
-    },
-    {
-        title: 'URL Shortening Service',
-        description: 'A URL shortening service (like bit.ly).',
-        stack: ['Python Flask', 'Vue.js', 'MongoDB Atlas'],
-        imgName: 'url_shortener.png',
-        siteUrl: 'https://url-shortening-service.netlify.app/',
-        codeUrl: 'https://github.com/huishun98/url-shortening-service',
-    },
-    {
-        title: 'HS Portfolio',
-        description: 'A portfolio website.',
-        stack: ['React.js'],
-        imgName: 'portfolio.png',
-        siteUrl: 'https://huishun98.github.io/',
-        codeUrl: 'https://github.com/huishun98/huishun98.github.io.git',
     },
 ]
 
